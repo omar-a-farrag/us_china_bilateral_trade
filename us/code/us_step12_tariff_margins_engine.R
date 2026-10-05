@@ -15,8 +15,8 @@ attach(IFSPECS$LT)
 setwd(dirname(this.path()))
 
 # Define Root Architecture
-ROOT <- "/if/research-eme/omar/Eva/bilateralTrade"
-ROOT_tariff_codes <- "/if/research-eme/omar/Eva"
+ROOT <- "REPLACE WITH YOUR PATH"
+ROOT_tariff_codes <- "REPLACE WITH YOUR PATH"
 out_dir <- paste0(ROOT, "/us/output/regressions")
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
