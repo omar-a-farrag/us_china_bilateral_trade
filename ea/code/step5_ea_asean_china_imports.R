@@ -35,7 +35,7 @@ custom_lts <- c("China" = "solid", "Vietnam" = "solid", "Malaysia" = "solid",
                 "Thailand" = IFDASHED, "Indonesia" = IFDOTTED, "Philippines" = "solid")
 
 # Output Directory
-root <- "/if/research-eme/omar/Eva/bilateralTrade/ea"
+root <- "REPLACE WITH YOUR PATH"
 out_dir <- paste0(root, "/output/imports_asean_ch")
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
