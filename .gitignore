@@ -1,11 +1,29 @@
-# Ignore everything at the root level
+# 1. Ignore everything at the root level
 /*
 
-# Un-ignore the code folder and this .gitignore file
-!/code/
+# 2. Un-ignore the country folders so Git can look inside them, and keep this file
+!/china/
+!/us/
+!/ca/
+!/mx/
+!/ea/
 !.gitignore
 
-# Ignore specific temp files anywhere in the repo
+# 3. Ignore everything INSIDE those country folders (blocks data, output, etc.)
+/china/*
+/us/*
+/ca/*
+/mx/*
+/ea/*
+
+# 4. Un-ignore the specific code folders so they get tracked
+!/china/code/
+!/us/code/
+!/ca/code/
+!/mx/code/
+!/ea/code/
+
+# 5. Ignore specific temp files anywhere in the repo
 __pycache__/
 *.Rhistory
 *.RData
