@@ -26,7 +26,7 @@ categories <- c("total", "tariffs", "no_tariffs")
 titles <- c("Total Goods", "Tariffed Goods", "Non-Tariffed Goods")
 plot_list <- list()
 
-out_dir <- "/if/research-eme/omar/Eva/bilateralTrade/us/output/trade_diff_core"
+out_dir <- "REPLACE WITH YOUR PATH"
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
 # ==============================================================================
