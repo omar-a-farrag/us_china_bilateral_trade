@@ -15,7 +15,7 @@ attach(IFSPECS$LT)
 
 setwd(dirname(this.path()))
 
-out_dir <- "/if/research-eme/omar/Eva/bilateralTrade/us/output/ea_proxy_explanation"
+out_dir <- "REPLACE WITH YOUR PATH"
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
 # ==============================================================================
