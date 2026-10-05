@@ -10,7 +10,7 @@ library(this.path)
 
 setwd(dirname(this.path()))
 
-out_dir <- "/if/research-eme/omar/Eva/bilateralTrade/us/output/de_minimis_proxy"
+out_dir <- "REPLACE WITH YOUR PATH"
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
 # ==============================================================================
