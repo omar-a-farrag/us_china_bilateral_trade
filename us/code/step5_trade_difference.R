@@ -120,7 +120,7 @@ for (abbr in names(country_map)) {
   chart_no  <- plot_diff(df_no_tar, "diff_val", "Non-Tariffed Goods Difference")
   
   # --- EXPORT ---
-  root <- "/if/research-eme/omar/Eva/bilateralTrade/us"
+  root <- "REPLACE WITH YOUR PATH"
   # Creates .../us/output/ar/trade_difference/
   out_dir <- paste0(root, "/output/", abbr, "/trade_difference")
   
