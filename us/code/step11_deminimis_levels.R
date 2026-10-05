@@ -24,7 +24,7 @@ NORMALIZE_TARIFF_GAP <- FALSE # If TRUE: Subtract 40 billion from the tariff gap
 # Dynamic Output Directory based on toggles
 sub_dir <- ifelse(MAKE_ANNUAL, "annual", "monthly")
 if(NORMALIZE_TARIFF_GAP) sub_dir <- paste0(sub_dir, "_norm_gap")
-out_dir <- paste0("/if/research-eme/omar/Eva/bilateralTrade/us/output/deminimis_levels/", sub_dir)
+out_dir <- paste0("REPLACE WITH YOUR PATH", sub_dir)
 
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
