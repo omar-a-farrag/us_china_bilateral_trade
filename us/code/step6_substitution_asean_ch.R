@@ -73,7 +73,7 @@ custom_lts <- c(
 )
 
 # Output Directory
-root <- "/if/research-eme/omar/Eva/bilateralTrade/us"
+root <- "REPLACE WITH YOUR PATH"
 out_dir <- paste0(root, "/output/imports_asean_ch")
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
