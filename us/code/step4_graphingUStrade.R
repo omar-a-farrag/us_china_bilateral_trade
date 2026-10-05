@@ -253,7 +253,7 @@ for (abbr in names(country_map)) {
   ### Exporting
   ##############################################################################
   # Dynamic root folder creation
-  root <- "/if/research-eme/omar/Eva/bilateralTrade/us"
+  root <- "REPLACE WITH YOUR PATH"
   output_folder_name <- paste0(root, "/output/", abbr) 
   
   if (!dir.exists(output_folder_name)) {
